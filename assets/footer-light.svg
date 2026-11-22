@@ -36,7 +36,7 @@
     <ellipse cx="600" cy="74" rx="440" ry="110" fill="url(#footGlowLight)" class="foot-glow"/>
 
     <text x="600" y="52" text-anchor="middle" class="sans" font-size="23" font-weight="700" fill="#0f172a">Let's build systems that run your business.</text>
-    <text x="600" y="83" text-anchor="middle" class="sans" font-size="15" fill="#475569">AI &amp; Automation Expert · GoHighLevel Certified Admin · Always available (EST)</text>
+    <text x="600" y="83" text-anchor="middle" class="sans" font-size="15" fill="#475569">AI Engineer @ Backspace International LTD · AI &amp; Automation Expert · EST</text>
 
     <rect x="370" y="100" width="460" height="26" rx="13" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
     <text x="600" y="117" text-anchor="middle" class="mono" font-size="12.5" fill="#0369a1">@meyadstack · abdullah-al-meyad.netlify.app</text>
