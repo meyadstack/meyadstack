@@ -2,15 +2,19 @@
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
-  <img src="./assets/hero-dark.svg" width="100%" alt="Abdullah Al Meyad (@meyadstack) developer profile hero card" />
+  <img src="./assets/hero-dark.svg" width="100%" alt="Abdullah Al Meyad (@meyadstack) — AI & Automation Expert profile hero card" />
 </picture>
 
 <p>
-  <a href="https://github.com/meyadstack"><strong>GitHub Profile</strong></a>
+  <a href="https://abdullah-al-meyad.netlify.app"><strong>Portfolio</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/meyadstack?tab=repositories"><strong>Repositories</strong></a>
+  <a href="https://www.linkedin.com/in/AbdullahMeyad"><strong>LinkedIn</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/meyadstack?tab=stars"><strong>Starred</strong></a>
+  <a href="https://calendly.com/abdullahmeyad7/30min"><strong>Book a Call</strong></a>
+  &nbsp;·&nbsp;
+  <a href="mailto:abdullahmeyad7@gmail.com"><strong>Email</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/meyadstack"><strong>GitHub</strong></a>
 </p>
 
 </div>
@@ -20,19 +24,22 @@
   <img src="./assets/divider-dark.svg" width="100%" alt="" />
 </picture>
 
-<h2>About &amp; Focus</h2>
+<h2>About &amp; Profile</h2>
 
 <table width="100%">
 <tr>
 <td width="56%" valign="top">
 <p>
-Hi, I'm <strong>Abdullah Al Meyad</strong> (<code>@meyadstack</code>) — a product-minded developer focused on turning ideas into clean, reliable, and thoughtfully crafted software.
+Hi, I'm <strong>Abdullah Al Meyad</strong> (<code>@meyadstack</code>) — an <strong>AI &amp; Automation Expert</strong> and <strong>GoHighLevel Certified Admin</strong> currently building AI automation at <strong>Octopi Digital LLC</strong>.
 </p>
-<p><strong>Currently exploring &amp; building:</strong></p>
+<p>
+I build full GoHighLevel subaccounts, production 24/7 AI voice and chat agents, and workflow automations that connect CRMs to the rest of your stack — backed by a B.Sc. in Computer Science &amp; Engineering (AIUB).
+</p>
+<p><strong>Core impact &amp; focus:</strong></p>
 <ul>
-<li>Clean user interfaces and responsive web experiences</li>
-<li>Maintainable APIs, tooling, and developer workflows</li>
-<li>Practical open-source projects shared in public</li>
+<li><strong>150+</strong> subaccounts managed, <strong>80+</strong> AI voice agents built, and <strong>40+</strong> businesses served</li>
+<li><strong>AI Voice &amp; Chat Agents:</strong> VAPI, Retell AI, Synthflow, ElevenLabs &amp; Bland AI</li>
+<li><strong>Automation &amp; CRM:</strong> GoHighLevel, n8n, Make.com, Zapier &amp; custom REST/LLM APIs</li>
 </ul>
 </td>
 <td width="44%" valign="top">
@@ -40,12 +47,15 @@ Hi, I'm <strong>Abdullah Al Meyad</strong> (<code>@meyadstack</code>) — a prod
 ```ts
 const meyadstack = {
   name: "Abdullah Al Meyad",
-  handle: "@meyadstack",
-  focus: "shipping useful software",
-  values: [
-    "clarity over noise",
-    "craft in the details",
-    "build in public",
+  role: "AI & Automation Expert",
+  certification: "GoHighLevel Certified Admin",
+  company: "Octopi Digital LLC",
+  availability: "30+ hrs/week · EST",
+  portfolio: "https://abdullah-al-meyad.netlify.app",
+  specialties: [
+    "AI Voice & Chat Agents",
+    "GoHighLevel CRM & Snapshots",
+    "n8n / Make / Zapier Workflows",
   ],
 } as const;
 ```
@@ -59,11 +69,11 @@ const meyadstack = {
   <img src="./assets/divider-dark.svg" width="100%" alt="" />
 </picture>
 
-<h2>How I Build</h2>
+<h2>Core Expertise</h2>
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="./assets/principles-light.svg" />
-  <img src="./assets/principles-dark.svg" width="100%" alt="Engineering principles: Product-Minded Code, End-to-End Execution, Building in Public" />
+  <img src="./assets/principles-dark.svg" width="100%" alt="Core expertise: AI Voice & Chat Agents, GoHighLevel Systems, Workflow Automation" />
 </picture>
 
 <picture>
@@ -71,27 +81,45 @@ const meyadstack = {
   <img src="./assets/divider-dark.svg" width="100%" alt="" />
 </picture>
 
-<h2>Featured Work</h2>
+<h2>Services &amp; Delivery</h2>
 
-> **Fresh workspace in motion** — new public repositories and open-source experiments will land here as they ship.
-> Explore upcoming releases on the <a href="https://github.com/meyadstack?tab=repositories">Repositories tab</a>.
+| Capability | What It Covers |
+| :--- | :--- |
+| **GHL Subaccount Setup & CRM** | Custom fields, pipelines, calendars, snapshot deployment (&lt;24h builds), CRM migration &amp; A2P 10DLC |
+| **AI Voice & Chat Agents** | 24/7 inbound/outbound qualification and booking on VAPI, Retell AI, Synthflow, ElevenLabs &amp; Bland AI |
+| **Workflow & Process Automation** | Multi-step Make.com, n8n, Zapier &amp; Airtable integrations connecting GHL to external APIs and LLMs |
+| **Funnels, Sites & Portals** | Native GHL funnels, landing pages, website migrations, dashboards, smart lists &amp; membership portals |
+| **Email & SMS Marketing** | Multi-channel nurture sequences, custom email templates, and retention campaigns |
+| **5-Step Delivery Process** | `01 Discovery & Audit` → `02 Scope & Architecture` → `03 Build` → `04 QA` → `05 Handover & Support` |
 
-<!--
-Uncomment and customize this 2-column showcase when your first repositories are live:
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg" />
+  <img src="./assets/divider-dark.svg" width="100%" alt="" />
+</picture>
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <p><a href="https://github.com/meyadstack/project-one"><strong>project-one</strong></a></p>
-      <p>Short description of what it solves and the stack behind it.</p>
-    </td>
-    <td width="50%" valign="top">
-      <p><a href="https://github.com/meyadstack/project-two"><strong>project-two</strong></a></p>
-      <p>Short description of what it solves and the stack behind it.</p>
-    </td>
-  </tr>
-</table>
--->
+<h2>Tech Stack &amp; Tools</h2>
+
+| Category | Technologies |
+| :--- | :--- |
+| **AI & Machine Learning** | `Claude API` `OpenAI GPT-4o` `GHL Native AI` `VAPI` `Retell AI` `Synthflow` `ElevenLabs` `Bland AI` `SimpleTalk` `RAG` `NLP` `Agentic AI` `Machine Learning` `Data Science` `Data Mining & Warehousing` |
+| **Automation & Integration** | `n8n` `Make.com` `Zapier` `Pabbly Connect` `REST APIs` `API Integration` `Postman` |
+| **CRM & Telephony** | `GoHighLevel` `HubSpot` `Follow Up Boss` `kvCORE` `BoomTown` `CINC` `Pipedrive` `Airtable` `Freshworks` `Twilio` `A2P 10DLC` `LC Phone` |
+| **Web & Backend** | `React` `Next.js` `Node.js` `TypeScript` `Tailwind CSS` `WordPress` `Webflow` `Framer` `Spring Boot` `.NET` `Maven` `Gradle` `Supabase` `Vercel` `Docker` |
+| **Languages & Databases** | `Python` `JavaScript` `Java` `C#` `C++` `C` `PHP` `R` `Dart` `HTML/CSS` `PostgreSQL` `MySQL` `MongoDB` `SQL Server` `Database Design` |
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg" />
+  <img src="./assets/divider-dark.svg" width="100%" alt="" />
+</picture>
+
+<h2>Experience, Credentials &amp; Education</h2>
+
+- **AI Automation Expert — Octopi Digital LLC** *(Jan 2026 – Present)*
+  Designing and deploying AI-driven automation systems using GoHighLevel, n8n, Make, Zapier, Vapi, SimpleTalk, and Retell AI — building CRM workflows, API integrations, and AI voice agents.
+- **GoHighLevel Certified Admin &amp; Mentor**
+  Highest-level GHL certification with HIPAA-tier build experience, real estate CRM depth, and **30+ trainees** mentored into working GHL specialists through the *GHL Training Program, Bangladesh*.
+- **B.Sc. in Computer Science &amp; Engineering — AIUB** *(2022 – 2026 · CGPA 3.76 / 4.00)*
+  American International University – Bangladesh (following HSC `GPA 5.00` &amp; SSC `GPA 4.89` at Mirpur Cantonment Public School and College).
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg" />
@@ -102,9 +130,9 @@ Uncomment and customize this 2-column showcase when your first repositories are 
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg" />
-  <img src="./assets/footer-dark.svg" width="100%" alt="Let's build something worth shipping — @meyadstack" />
+  <img src="./assets/footer-dark.svg" width="100%" alt="Let's build systems that run your business — @meyadstack" />
 </picture>
 
-<p><sub>Built with pure SVG &amp; GitHub-Flavored Markdown · <a href="https://github.com/meyadstack">@meyadstack</a></sub></p>
+<p><sub><a href="https://abdullah-al-meyad.netlify.app">abdullah-al-meyad.netlify.app</a> · <a href="https://www.linkedin.com/in/AbdullahMeyad">LinkedIn</a> · <a href="https://calendly.com/abdullahmeyad7/30min">Book a 30-min Call</a></sub></p>
 
 </div>
