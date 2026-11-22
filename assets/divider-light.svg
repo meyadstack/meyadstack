@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24" role="presentation">
+  <defs>
+    <linearGradient id="divLineLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#0284c7" stop-opacity="0.28"/>
+      <stop offset="50%" stop-color="#4f46e5" stop-opacity="0.48"/>
+      <stop offset="65%" stop-color="#059669" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="starLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+  </defs>
+  <rect x="40" y="11.5" width="540" height="1" fill="url(#divLineLight)"/>
+  <rect x="620" y="11.5" width="540" height="1" fill="url(#divLineLight)"/>
+  <path d="M600 4 L602.2 9.8 L608 12 L602.2 14.2 L600 20 L597.8 14.2 L592 12 L597.8 9.8 Z" fill="url(#starLight)"/>
+</svg>
