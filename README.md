@@ -30,7 +30,7 @@
 <tr>
 <td width="53%" valign="top">
 <p>
-Hi, I'm <strong>Abdullah Al Meyad</strong> (<code>@meyadstack</code>) — an <strong>AI &amp; Automation Expert</strong> and <strong>GoHighLevel Certified Admin</strong> currently building AI automation at <strong>Octopi Digital LLC</strong>.
+Hi, I'm <strong>Abdullah Al Meyad</strong> (<code>@meyadstack</code>) — an <strong>AI &amp; Automation Expert</strong> and <strong>GoHighLevel Certified Admin</strong>, currently working as an <strong>AI Engineer</strong> at <strong>Backspace International LTD</strong>.
 </p>
 <p>
 I build full GoHighLevel subaccounts, production 24/7 AI voice and chat agents, and workflow automations that connect CRMs to the rest of your stack — backed by a B.Sc. in Computer Science &amp; Engineering (AIUB).
@@ -48,8 +48,9 @@ I build full GoHighLevel subaccounts, production 24/7 AI voice and chat agents, 
 const meyadstack = {
   name: "Abdullah Al Meyad",
   role: "AI & Automation Expert",
+  title: "AI Engineer",
+  org: "Backspace International LTD",
   cert: "GHL Certified Admin",
-  org: "Octopi Digital LLC",
   hours: "30+ hrs/week · EST",
   site: "abdullah-al-meyad.netlify.app",
   focus: [
@@ -114,8 +115,10 @@ const meyadstack = {
 
 <h2>Experience, Credentials &amp; Education</h2>
 
-- **AI Automation Expert — Octopi Digital LLC** *(Jan 2026 – Present)*
-  Designing and deploying AI-driven automation systems using GoHighLevel, n8n, Make, Zapier, Vapi, SimpleTalk, and Retell AI — building CRM workflows, API integrations, and AI voice agents.
+- **AI Engineer — Backspace International LTD** *(Current)*
+  Engineering AI systems, autonomous voice and chat agents, and intelligent workflow automations.
+- **AI Automation Expert — Octopi Digital LLC** *(Prior)*
+  Designed and deployed AI-driven automation systems using GoHighLevel, n8n, Make, Zapier, Vapi, SimpleTalk, and Retell AI — building CRM workflows, API integrations, and AI voice agents.
 - **GoHighLevel Certified Admin &amp; Mentor**
   Highest-level GHL certification with HIPAA-tier build experience, real estate CRM depth, and **30+ trainees** mentored into working GHL specialists through the *GHL Training Program, Bangladesh*.
 - **B.Sc. in Computer Science &amp; Engineering — AIUB** *(2022 – 2026 · CGPA 3.76 / 4.00)*
