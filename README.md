@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg?v=2" />
-  <img src="./assets/hero-dark.svg?v=2" width="100%" alt="Abdullah Al Meyad (@meyadstack) — AI & Automation Expert profile hero card" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg?v=3" />
+  <img src="./assets/hero-dark.svg?v=3" width="100%" alt="Abdullah Al Meyad (@meyadstack) — AI & Automation Expert profile hero card" />
 </picture>
 
 <p>
@@ -30,7 +30,7 @@
 <tr>
 <td width="53%" valign="top">
 <p>
-Hi, I'm <strong>Abdullah Al Meyad</strong> (<code>@meyadstack</code>) — an <strong>AI &amp; Automation Expert</strong> and <strong>GoHighLevel Certified Admin</strong>, currently working as an <strong>AI Engineer</strong> at <strong>Backspace International LTD</strong>.
+Hi, I'm <strong>Abdullah Al Meyad</strong> (<code>@meyadstack</code>) — an <strong>AI &amp; Automation Expert</strong> currently working as an <strong>AI Engineer</strong> at <strong>Backspace International LTD</strong>.
 </p>
 <p>
 I build full GoHighLevel subaccounts, production 24/7 AI voice and chat agents, and workflow automations that connect CRMs to the rest of your stack — backed by a B.Sc. in Computer Science &amp; Engineering (AIUB).
@@ -50,7 +50,6 @@ const meyadstack = {
   role: "AI & Automation Expert",
   title: "AI Engineer",
   org: "Backspace International LTD",
-  cert: "GHL Certified Admin",
   hours: "30+ hrs/week · EST",
   site: "abdullah-al-meyad.netlify.app",
   focus: [
@@ -73,8 +72,8 @@ const meyadstack = {
 <h2>Core Expertise</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/principles-light.svg?v=2" />
-  <img src="./assets/principles-dark.svg?v=2" width="100%" alt="Core expertise: AI Voice & Chat Agents, GoHighLevel Systems, Workflow Automation" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/principles-light.svg?v=3" />
+  <img src="./assets/principles-dark.svg?v=3" width="100%" alt="Core expertise: AI Voice & Chat Agents, GoHighLevel Systems, Workflow Automation" />
 </picture>
 
 <picture>
@@ -113,14 +112,14 @@ const meyadstack = {
   <img src="./assets/divider-dark.svg" width="100%" alt="" />
 </picture>
 
-<h2>Experience, Credentials &amp; Education</h2>
+<h2>Experience, Mentorship &amp; Education</h2>
 
 - **AI Engineer — Backspace International LTD** *(Current)*
   Engineering AI systems, autonomous voice and chat agents, and intelligent workflow automations.
 - **AI Automation Expert — Octopi Digital LLC** *(Prior)*
   Designed and deployed AI-driven automation systems using GoHighLevel, n8n, Make, Zapier, Vapi, SimpleTalk, and Retell AI — building CRM workflows, API integrations, and AI voice agents.
-- **GoHighLevel Certified Admin &amp; Mentor**
-  Highest-level GHL certification with HIPAA-tier build experience, real estate CRM depth, and **30+ trainees** mentored into working GHL specialists through the *GHL Training Program, Bangladesh*.
+- **GHL Training Program, Bangladesh — Mentor**
+  Mentored **30+ trainees** into working GoHighLevel specialists, alongside HIPAA-tier CRM architecture and real estate CRM build experience.
 - **B.Sc. in Computer Science &amp; Engineering — AIUB** *(2022 – 2026 · CGPA 3.76 / 4.00)*
   American International University – Bangladesh (following HSC `GPA 5.00` &amp; SSC `GPA 4.89` at Mirpur Cantonment Public School and College).
 
@@ -132,8 +131,8 @@ const meyadstack = {
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg?v=2" />
-  <img src="./assets/footer-dark.svg?v=2" width="100%" alt="Let's build systems that run your business — @meyadstack" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg?v=3" />
+  <img src="./assets/footer-dark.svg?v=3" width="100%" alt="Let's build systems that run your business — @meyadstack" />
 </picture>
 
 <p><sub><a href="https://abdullah-al-meyad.netlify.app">abdullah-al-meyad.netlify.app</a> · <a href="https://www.linkedin.com/in/AbdullahMeyad">LinkedIn</a> · <a href="https://calendly.com/abdullahmeyad7/30min">Book a 30-min Call</a></sub></p>
