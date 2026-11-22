@@ -23,19 +23,19 @@
 <h2>About &amp; Focus</h2>
 
 <table width="100%">
-  <tr>
-    <td width="56%" valign="top">
-      <p>
-        Hi, I'm <strong>Abdullah Al Meyad</strong> (<code>@meyadstack</code>) — a product-minded developer focused on turning ideas into clean, reliable, and thoughtfully crafted software.
-      </p>
-      <p><strong>Currently exploring &amp; building:</strong></p>
-      <ul>
-        <li>Clean user interfaces and responsive web experiences</li>
-        <li>Maintainable APIs, tooling, and developer workflows</li>
-        <li>Practical open-source projects shared in public</li>
-      </ul>
-    </td>
-    <td width="44%" valign="top">
+<tr>
+<td width="56%" valign="top">
+<p>
+Hi, I'm <strong>Abdullah Al Meyad</strong> (<code>@meyadstack</code>) — a product-minded developer focused on turning ideas into clean, reliable, and thoughtfully crafted software.
+</p>
+<p><strong>Currently exploring &amp; building:</strong></p>
+<ul>
+<li>Clean user interfaces and responsive web experiences</li>
+<li>Maintainable APIs, tooling, and developer workflows</li>
+<li>Practical open-source projects shared in public</li>
+</ul>
+</td>
+<td width="44%" valign="top">
 
 ```ts
 const meyadstack = {
@@ -50,8 +50,8 @@ const meyadstack = {
 } as const;
 ```
 
-    </td>
-  </tr>
+</td>
+</tr>
 </table>
 
 <picture>
