@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
-  <img src="./assets/hero-dark.svg" width="100%" alt="Abdullah Al Meyad (@meyadstack) — AI & Automation Expert profile hero card" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg?v=2" />
+  <img src="./assets/hero-dark.svg?v=2" width="100%" alt="Abdullah Al Meyad (@meyadstack) — AI & Automation Expert profile hero card" />
 </picture>
 
 <p>
@@ -28,7 +28,7 @@
 
 <table width="100%">
 <tr>
-<td width="56%" valign="top">
+<td width="53%" valign="top">
 <p>
 Hi, I'm <strong>Abdullah Al Meyad</strong> (<code>@meyadstack</code>) — an <strong>AI &amp; Automation Expert</strong> and <strong>GoHighLevel Certified Admin</strong> currently building AI automation at <strong>Octopi Digital LLC</strong>.
 </p>
@@ -42,20 +42,20 @@ I build full GoHighLevel subaccounts, production 24/7 AI voice and chat agents, 
 <li><strong>Automation &amp; CRM:</strong> GoHighLevel, n8n, Make.com, Zapier &amp; custom REST/LLM APIs</li>
 </ul>
 </td>
-<td width="44%" valign="top">
+<td width="47%" valign="top">
 
 ```ts
 const meyadstack = {
   name: "Abdullah Al Meyad",
   role: "AI & Automation Expert",
-  certification: "GoHighLevel Certified Admin",
-  company: "Octopi Digital LLC",
-  availability: "30+ hrs/week · EST",
-  portfolio: "https://abdullah-al-meyad.netlify.app",
-  specialties: [
+  cert: "GHL Certified Admin",
+  org: "Octopi Digital LLC",
+  hours: "30+ hrs/week · EST",
+  site: "abdullah-al-meyad.netlify.app",
+  focus: [
     "AI Voice & Chat Agents",
-    "GoHighLevel CRM & Snapshots",
-    "n8n / Make / Zapier Workflows",
+    "GoHighLevel Systems",
+    "n8n / Make / Zapier",
   ],
 } as const;
 ```
@@ -72,8 +72,8 @@ const meyadstack = {
 <h2>Core Expertise</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/principles-light.svg" />
-  <img src="./assets/principles-dark.svg" width="100%" alt="Core expertise: AI Voice & Chat Agents, GoHighLevel Systems, Workflow Automation" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/principles-light.svg?v=2" />
+  <img src="./assets/principles-dark.svg?v=2" width="100%" alt="Core expertise: AI Voice & Chat Agents, GoHighLevel Systems, Workflow Automation" />
 </picture>
 
 <picture>
@@ -129,8 +129,8 @@ const meyadstack = {
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg" />
-  <img src="./assets/footer-dark.svg" width="100%" alt="Let's build systems that run your business — @meyadstack" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg?v=2" />
+  <img src="./assets/footer-dark.svg?v=2" width="100%" alt="Let's build systems that run your business — @meyadstack" />
 </picture>
 
 <p><sub><a href="https://abdullah-al-meyad.netlify.app">abdullah-al-meyad.netlify.app</a> · <a href="https://www.linkedin.com/in/AbdullahMeyad">LinkedIn</a> · <a href="https://calendly.com/abdullahmeyad7/30min">Book a 30-min Call</a></sub></p>
