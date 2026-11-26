@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="296" viewBox="0 0 1000 296" role="img" aria-label="Live Signal and Engineering Velocity">
+  <defs>
+    <linearGradient id="sbg_l" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <linearGradient id="sbdr_l" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.38"/>
+    </linearGradient>
+    <linearGradient id="wave_l" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="55%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="area_l" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.01"/>
+    </linearGradient>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+      @keyframes flow { from { stroke-dashoffset: 640; } to { stroke-dashoffset: 0; } }
+      .pulse { animation: pulse 2.2s ease-in-out infinite; }
+      .flow { stroke-dasharray: 18 14; animation: flow 14s linear infinite; }
+      @media (prefers-reduced-motion: reduce) { .pulse, .flow { animation: none; } }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="996" height="292" rx="18" fill="url(#sbg_l)" stroke="url(#sbdr_l)" stroke-width="1.15"/>
+
+  <!-- Top telemetry header -->
+  <circle cx="38" cy="34" r="4" fill="#059669" class="pulse"/>
+  <text x="52" y="38" class="mono" font-size="11.5" font-weight="700" letter-spacing="1.6" fill="#047857">LIVE SIGNAL</text>
+  <text x="164" y="38" class="mono" font-size="11.2" fill="#475569">PUBLIC GITHUB TELEMETRY &amp; FOCUS</text>
+
+  <rect x="526" y="20" width="100" height="26" rx="13" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="576" y="36.5" text-anchor="middle" class="mono" font-size="10.8" fill="#0f172a">3 Repos</text>
+
+  <rect x="636" y="20" width="142" height="26" rx="13" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="707" y="36.5" text-anchor="middle" class="mono" font-size="10.8" fill="#0369a1">31 Contributions</text>
+
+  <rect x="788" y="20" width="180" height="26" rx="13" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="878" y="36.5" text-anchor="middle" class="mono" font-size="10.8" fill="#047857">5 Active Days · Nov 2026</text>
+
+  <!-- Left waveform card -->
+  <rect x="30" y="64" width="478" height="204" rx="14" fill="#ffffff" fill-opacity="0.92" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="50" y="90" class="mono" font-size="10.8" font-weight="600" letter-spacing="1.2" fill="#475569">RECENT CONTRIBUTION WAVEFORM</text>
+  <text x="488" y="90" text-anchor="end" class="mono" font-size="10.5" fill="#0369a1">PEAK: 12 / DAY</text>
+
+  <!-- Horizontal reference lines -->
+  <line x1="56" y1="122" x2="486" y2="122" stroke="#cbd5e1" stroke-dasharray="3 4" stroke-opacity="0.55"/>
+  <line x1="56" y1="177" x2="486" y2="177" stroke="#cbd5e1" stroke-dasharray="3 4" stroke-opacity="0.55"/>
+  <line x1="56" y1="232" x2="486" y2="232" stroke="#cbd5e1" stroke-opacity="0.8"/>
+
+  <path d="M 82 214 C 118 214, 124 122, 160 122 C 196 122, 202 190, 238 190 C 274 190, 280 122, 316 122 C 352 122, 358 224, 394 224 C 430 224, 436 206, 472 206 L 472 232 L 82 232 Z" fill="url(#area_l)"/>
+  <path d="M 82 214 C 118 214, 124 122, 160 122 C 196 122, 202 190, 238 190 C 274 190, 280 122, 316 122 C 352 122, 358 224, 394 224 C 430 224, 436 206, 472 206" fill="none" stroke="url(#wave_l)" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M 82 214 C 118 214, 124 122, 160 122 C 196 122, 202 190, 238 190 C 274 190, 280 122, 316 122 C 352 122, 358 224, 394 224 C 430 224, 436 206, 472 206" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.4" class="flow"/>
+  <circle cx="82" cy="214" r="4.5" fill="#ffffff" stroke="#0284c7" stroke-width="2.2"/><text x="82" y="203" text-anchor="middle" class="mono" font-size="10.2" font-weight="600" fill="#0369a1">1</text><text x="82" y="250" text-anchor="middle" class="mono" font-size="9.8" fill="#475569">Nov 21</text><circle cx="160" cy="122" r="4.5" fill="#ffffff" stroke="#0284c7" stroke-width="2.2"/><text x="160" y="111" text-anchor="middle" class="mono" font-size="10.2" font-weight="600" fill="#0369a1">12</text><text x="160" y="250" text-anchor="middle" class="mono" font-size="9.8" fill="#475569">Nov 22</text><circle cx="238" cy="190" r="4.5" fill="#ffffff" stroke="#0284c7" stroke-width="2.2"/><text x="238" y="179" text-anchor="middle" class="mono" font-size="10.2" font-weight="600" fill="#0369a1">4</text><text x="238" y="250" text-anchor="middle" class="mono" font-size="9.8" fill="#475569">Nov 23</text><circle cx="316" cy="122" r="4.5" fill="#ffffff" stroke="#0284c7" stroke-width="2.2"/><text x="316" y="111" text-anchor="middle" class="mono" font-size="10.2" font-weight="600" fill="#0369a1">12</text><text x="316" y="250" text-anchor="middle" class="mono" font-size="9.8" fill="#475569">Nov 24</text><circle cx="394" cy="224" r="4.5" fill="#ffffff" stroke="#0284c7" stroke-width="2.2"/><text x="394" y="213" text-anchor="middle" class="mono" font-size="10.2" font-weight="600" fill="#0369a1">0</text><text x="394" y="250" text-anchor="middle" class="mono" font-size="9.8" fill="#475569">Nov 25</text><circle cx="472" cy="206" r="4.5" fill="#ffffff" stroke="#0284c7" stroke-width="2.2"/><text x="472" y="195" text-anchor="middle" class="mono" font-size="10.2" font-weight="600" fill="#0369a1">2</text><text x="472" y="250" text-anchor="middle" class="mono" font-size="9.8" fill="#475569">Nov 26</text>
+
+  <!-- Right focus bars card -->
+  <rect x="530" y="64" width="440" height="204" rx="14" fill="#ffffff" fill-opacity="0.92" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="556" y="90" class="mono" font-size="10.8" font-weight="600" letter-spacing="1.2" fill="#475569">CORE ENGINEERING SIGNAL</text>
+  <text x="942" y="90" text-anchor="end" class="mono" font-size="10.5" fill="#6d28d9">PRODUCTION STACK</text>
+  <text x="556" y="114" class="sans" font-size="11.8" font-weight="600" fill="#334155">Python · LangChain · DeepEval</text><text x="942" y="114" text-anchor="end" class="mono" font-size="10.5" fill="#0369a1">92%</text><rect x="556" y="120" width="386" height="7" rx="3.5" fill="#e2e8f0"/><rect x="556" y="120" width="355" height="7" rx="3.5" fill="#0284c7" fill-opacity="0.88"/><text x="556" y="147" class="sans" font-size="11.8" font-weight="600" fill="#334155">AI Voice · VAPI · Retell · ElevenLabs</text><text x="942" y="147" text-anchor="end" class="mono" font-size="10.5" fill="#be123c">96%</text><rect x="556" y="153" width="386" height="7" rx="3.5" fill="#e2e8f0"/><rect x="556" y="153" width="370" height="7" rx="3.5" fill="#e11d48" fill-opacity="0.88"/><text x="556" y="180" class="sans" font-size="11.8" font-weight="600" fill="#334155">Automation · GoHighLevel · n8n · Make</text><text x="942" y="180" text-anchor="end" class="mono" font-size="10.5" fill="#047857">98%</text><rect x="556" y="186" width="386" height="7" rx="3.5" fill="#e2e8f0"/><rect x="556" y="186" width="378" height="7" rx="3.5" fill="#059669" fill-opacity="0.88"/><text x="556" y="213" class="sans" font-size="11.8" font-weight="600" fill="#334155">Kotlin · Jetpack Compose · Android</text><text x="942" y="213" text-anchor="end" class="mono" font-size="10.5" fill="#6d28d9">84%</text><rect x="556" y="219" width="386" height="7" rx="3.5" fill="#e2e8f0"/><rect x="556" y="219" width="324" height="7" rx="3.5" fill="#7c3aed" fill-opacity="0.88"/><text x="556" y="246" class="sans" font-size="11.8" font-weight="600" fill="#334155">Rust · TypeScript · React · Next.js</text><text x="942" y="246" text-anchor="end" class="mono" font-size="10.5" fill="#b45309">78%</text><rect x="556" y="252" width="386" height="7" rx="3.5" fill="#e2e8f0"/><rect x="556" y="252" width="301" height="7" rx="3.5" fill="#d97706" fill-opacity="0.88"/>
+</svg>

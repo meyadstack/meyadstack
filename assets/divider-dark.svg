@@ -1,18 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24" role="presentation">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="24" viewBox="0 0 1000 24" role="img" aria-label="Section divider">
   <defs>
-    <linearGradient id="divLineDark" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="div_d" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
-      <stop offset="35%" stop-color="#38bdf8" stop-opacity="0.35"/>
-      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.65"/>
-      <stop offset="65%" stop-color="#34d399" stop-opacity="0.35"/>
+      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.8"/>
+      <stop offset="75%" stop-color="#34d399" stop-opacity="0.55"/>
       <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="starDark" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7dd3fc"/>
-      <stop offset="100%" stop-color="#a5b4fc"/>
-    </linearGradient>
+    <style>
+      @keyframes glow { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+      .spark { animation: glow 3s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) { .spark { animation: none; } }
+    </style>
   </defs>
-  <rect x="40" y="11.5" width="540" height="1" fill="url(#divLineDark)"/>
-  <rect x="620" y="11.5" width="540" height="1" fill="url(#divLineDark)"/>
-  <path d="M600 4 L602.2 9.8 L608 12 L602.2 14.2 L600 20 L597.8 14.2 L592 12 L597.8 9.8 Z" fill="url(#starDark)"/>
+  <rect x="20" y="11.25" width="960" height="1.5" rx="0.75" fill="url(#div_d)"/>
+  <path d="M500 5 L504 12 L500 19 L496 12 Z" fill="#38bdf8" class="spark"/>
 </svg>
