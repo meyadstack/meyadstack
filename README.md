@@ -81,33 +81,29 @@
 <tr>
 <td width="53%" valign="top">
 <p>
-Hi, I'm <strong>Abdullah Al Meyad</strong> (<code>@meyadstack</code>), an <strong>AI &amp; Automation Expert</strong> currently working as an <strong>AI Engineer</strong> at <strong>Backspace International LTD</strong>.
+Hi, I'm <strong>Abdullah Al Meyad</strong> (<code>@meyadstack</code>), an <strong>AI Engineer</strong> at <strong>Backspace International LTD</strong>.
 </p>
 <p>
-I architect full GoHighLevel subaccounts, 24/7 AI voice and chat agents, and multi-step workflow automations that connect CRMs to LLMs and external APIs, backed by a B.Sc. in Computer Science &amp; Engineering (AIUB).
+I design and ship production agentic AI systems, 24/7 voice and chat agents, RAG pipelines, and automated evaluation harnesses that connect LLMs to real tools and external APIs, backed by a B.Sc. in Computer Science &amp; Engineering (AIUB).
 </p>
-<p><strong>Core impact &amp; focus:</strong></p>
-<ul>
-<li><strong>150+</strong> subaccounts managed, <strong>80+</strong> AI voice agents built, and <strong>40+</strong> businesses served</li>
-<li><strong>AI Voice &amp; Chat Agents:</strong> VAPI, Retell AI, Synthflow, ElevenLabs &amp; Bland AI</li>
-<li><strong>Automation &amp; CRM:</strong> GoHighLevel, n8n, Make.com, Zapier &amp; custom REST/LLM APIs</li>
-</ul>
+<p>
+My work centers on turning LLM prototypes into reliable, measurable production software, spanning tool-calling LangChain agents, DeepEval test suites, low-latency voice interfaces, and intelligent backend workflows.
+</p>
 </td>
 <td width="47%" valign="top">
 
 ```ts
 const meyadstack = {
   name: "Abdullah Al Meyad",
-  role: "AI & Automation Expert",
-  title: "AI Engineer",
+  role: "AI Engineer",
   org: "Backspace International LTD",
   hours: "30+ hrs/week · EST",
   site: "abdullah-al-meyad.netlify.app",
   focus: [
-    "AI Voice & Chat Agents",
-    "LLM Agent Evaluation",
-    "GoHighLevel Systems",
-    "n8n / Make / Zapier",
+    "Agentic AI & Tool-Calling Systems",
+    "LLM Evaluation & Observability",
+    "Real-Time Voice & Chat Agents",
+    "Intelligent Workflow Automation",
   ],
 } as const;
 ```
