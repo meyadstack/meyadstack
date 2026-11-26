@@ -121,22 +121,6 @@ const meyadstack = {
   <img src="./assets/divider-dark.svg?v=4" width="100%" alt="" />
 </picture>
 
-<h2>Services &amp; Delivery</h2>
-
-| Capability | What It Covers |
-| :--- | :--- |
-| **GHL Subaccount Setup & CRM** | Custom fields, pipelines, calendars, snapshot deployment (&lt;24h builds), CRM migration &amp; A2P 10DLC |
-| **AI Voice & Chat Agents** | 24/7 inbound/outbound qualification and booking on VAPI, Retell AI, Synthflow, ElevenLabs &amp; Bland AI |
-| **Workflow & Process Automation** | Multi-step Make.com, n8n, Zapier &amp; Airtable integrations connecting GHL to external APIs and LLMs |
-| **Funnels, Sites & Portals** | Native GHL funnels, landing pages, website migrations, dashboards, smart lists &amp; membership portals |
-| **Email & SMS Marketing** | Multi-channel nurture sequences, custom email templates, and retention campaigns |
-| **5-Step Delivery Process** | `01 Discovery & Audit` → `02 Architecture` → `03 Build` → `04 QA & DeepEval` → `05 Handover & Support` |
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg?v=4" />
-  <img src="./assets/divider-dark.svg?v=4" width="100%" alt="" />
-</picture>
-
 <h2>Tech Stack &amp; Tools</h2>
 
 | Category | Technologies |
